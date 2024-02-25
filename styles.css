@@ -1,0 +1,24 @@
+main{
+padding-top: 30px;
+}
+h3{
+margin-top: -10px;
+}
+#btn1{
+margin-right: 3px;
+}
+
+@media(max-width: 991.98px){
+main{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+#imageContent{
+display: none;
+}
+#btn3{
+display: none!important;
+}
+}
