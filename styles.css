@@ -1,11 +1,22 @@
+body{
+font-family: lato;
+}
 main{
-padding-top: 30px;
+padding-top: 7em;
 }
 h3{
 margin-top: -10px;
 }
 #btn1{
 margin-right: 3px;
+}
+#textContent h4{
+font-family: lato;
+font-weight: 400;
+}
+#textContent h3{
+font-family: lato;
+font-weight: 300;
 }
 
 @media(max-width: 991.98px){
