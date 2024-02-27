@@ -15,7 +15,7 @@
 </head>
 <body>
   <!--- NAVBAR START-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 end-0 start-0" id="navs">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 end-0 start-0 z-3" id="navs">
     <div class="container-fluid">
       <a class="navbar-brand" href="#homes">Muhamad Fikri</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
             <a class="nav-link active" aria-current="page" href="#abouts">Tentang</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portos">Portofolio</a>
+            <a class="nav-link" href="#cards">Portofolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#kontaks">Kontak</a>
@@ -43,14 +43,15 @@
   <main class="d-flex flex-column text-white" id="homes">
     <section class="d-flex" id="hero1">
       <div class=" d-flex flex-column justify-content-center text-center col-6 ps-4" id="hro1">
-        <h4 style="font-size:60px">I'M</h4>
-        <h1 style="font-size:80px">MUHAMAD FIKRI</h1>
+        <h1 style="font-size:60px">I'M</h1>
+        <h2 style="font-size:80px">MUHAMAD FIKRI</h2>
         <h3 style="font-size:40px">learn web developer</h3>
       </div>
       <div class=" col-6 d-flex justify-content-start" id="imageContent">
         <img src="/1mg.svg"
         alt="image-abauot"
-        height="600px">
+        height="600px"
+        width="700px">
       </div>
     </section>
     <div id="styles"></div>
@@ -68,9 +69,9 @@
         height="600px">
       </div>
     </section>
-    <section class="d-flex justify-content-center align-items-center gap-5 bg-light col-12" style="margin-top:100px" id="cards">
+    <section class="d-flex justify-content-center align-items-center gap-5 bg-light col-12 z-1" style="margin-top:100px" id="cards">
       <div class="card bg-dark text-light" style="width: 18rem;">
-        <img src="/empety.svg" width="600px" class="card-img-top" alt="...">
+        <img src="/empety.svg" width="600px"height="300px" class="card-img-top" alt="image-empety">
         <div class="card-body">
           <h5 class="card-title">Opss...</h5>
           <h1 class="card-text">
@@ -80,45 +81,49 @@
         </div>
       </div>
       <div class="card bg-dark text-light" style="width: 18rem;">
-        <img src="/empety.svg" width="600px" class="card-img-top" alt="...">
+        <img src="/empety.svg" width="600px" height="300px" class="card-img-top" alt="image-empety">
         <div class="card-body">
           <h5 class="card-title">Opss...</h5>
-          <h1 class="card-text">
+          <p class="card-text">
             Empety
-          </h1>
+          </p>
           <a href="index.html" class="btn btn-primary">Kunjungi</a>
         </div>
       </div>
       <div class="card bg-dark text-light" style="width: 18rem;">
-        <img src="/empety.svg" width="600px" class="card-img-top" alt="...">
+        <img src="/empety.svg" width="600px"height="300px" class="card-img-top" alt="image-empety">
         <div class="card-body">
           <h5 class="card-title">Opss...</h5>
-          <h1 class="card-text">
+          <p class="card-text">
             Empety
-          </h1>
+          </p>
           <a href="index.html" class="btn btn-primary">Kunjungi</a>
         </div>
       </div>
       <div class="card bg-dark text-light" style="width: 18rem;">
-        <img src="/empety.svg" width="600px" class="card-img-top" alt="...">
+        <img src="/empety.svg" width="600px" height="300px" class="card-img-top" alt="image-empety">
         <div class="card-body">
           <h5 class="card-title">Opss...</h5>
-          <h1 class="card-text">
+          <p class="card-text">
             Empety
-          </h1>
+          </p>
           <a href="index.html" class="btn btn-primary">Kunjungi</a>
         </div>
       </div>
     </section>
     <section class="text-center pt-5" id="kontaks">
       <h2>Get in touch_</h2>
-      <h6>
+      <p>
         Silahkan yang ingin menghubungi saya bisa via email,<br> atau bisa lewat sosial media di bawah ini.
-      </h6>
+      </p>
       <a href="mailto:muhamadfikri0028@gmail.com"><button type="button" class="btn btn-outline-info btn-dark col-2" id="btn1">Kontak</button></a>
       <div class="pt-4">
-        <a href="instagram.com/fkr_33"> <img src="/ig.svg" height="30px"></a>
-        <a href="https://github.com/fkr343"><img src="/git.svg" height="30px"></a>
+        <a href="https://www.instagram.com/fkr_33/"> <img src="/ig.svg"
+          alt="icon-instagram"
+          height="30px" width="50px"></a>
+        <a href="https://github.com/fkr343"><img src="/git.svg"
+          alt="icon-github"
+          height="30px" width="40px"></a>
       </div>
     </section>
     <footer class="text-center text-light bottom-0 mt-4">
