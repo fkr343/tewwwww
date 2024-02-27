@@ -1,22 +1,47 @@
+:root{
+--background-color: #003f73;
+}
 body{
-font-family: lato;
+font-family: lato, Sans-Serif;
+}
+#backgrounds{
+background-color: var(--background-color);
+}
+#styles{
+height: 300px;
+background-color: white;
+border-top-left-radius: 600px;
+margin-left: -100px;
+}
+#hero1{
+margin-bottom: -40px;
+border-bottom-left-radius: 400px;
+font-size: 80px;
+}
+
+#hero2 #abouts{
+height: 300px;
+margin-top: -200px;
+background-color: var(--background-color);
+border-top-left-radius: 150px;
+border-bottom-left-radius: 30px;
+padding-left: 60px;
+}
+#img2{
+margin-top: -300px;
+}
+#cards{
+height: 500px;
 }
 main{
 padding-top: 7em;
+back
 }
 h3{
 margin-top: -10px;
 }
 #btn1{
 margin-right: 3px;
-}
-#textContent h4{
-font-family: lato;
-font-weight: 400;
-}
-#textContent h3{
-font-family: lato;
-font-weight: 300;
 }
 
 @media(max-width: 991.98px){
