@@ -15,8 +15,11 @@ margin-left: -100px;
 }
 #hero1{
 margin-bottom: -40px;
-border-bottom-left-radius: 400px;
 font-size: 80px;
+}
+.card{
+width: 200px;
+height: 200px;
 }
 
 #hero2 #abouts{
@@ -31,30 +34,144 @@ padding-left: 60px;
 margin-top: -300px;
 }
 #cards{
-height: 500px;
+height: 250px;
 }
 main{
 padding-top: 7em;
 back
 }
-h3{
-margin-top: -10px;
-}
 #btn1{
 margin-right: 3px;
 }
 
-@media(max-width: 991.98px){
-main{
+@media(max-width:991px){
+#hero1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 500px;
+}
+#imageContent img{
+height: 500px;
+width: 500px;
+}
+#hero2{
 display: flex;
 flex-direction: column-reverse;
 justify-content: center;
 align-items: center;
 }
-#imageContent{
-display: none;
+#hero2 #abouts{
+width: 100%;
+height: 300px;
+margin-top: 30px;
 }
-#btn3{
-display: none!important;
+#hero2 #img2 img{
+height: 500px;
+width: 500px;
+margin-top: -50px;
+}
+#homes #cards{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: baseline;
+text-align: center;
+height: 500px;
+width: 100%;
+}
+#cards .card1{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+height: 250px;
+width: 100%;
+}
+#cards .card2{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+height: 250px;
+width: 100%;
+}
+#cards .card1 img{
+width: 200px;
+height: 300px;
+}
+}
+
+
+
+
+
+
+@media(max-width:767px){
+#homes #hero1{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+#homes #hero1 #hro1 h1{
+font-size: 30px;
+}
+#homes #hero1 #hro1 h2{
+font-size: 60px;
+}
+#hero1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 500px;
+}
+#imageContent img{
+display: none;
+height: 10px;
+width: 10px;
+}
+#hero2{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+#hero2 #abouts{
+width: 100%;
+height: 300px;
+margin-top: 30px;
+}
+#hero2 #img2 img{
+height: 500px;
+width: 500px;
+margin-top: -50px;
+}
+#homes #cards{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: baseline;
+text-align: center;
+height: 500px;
+width: 100%;
+}
+#cards .card1{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+height: 250px;
+width: 100%;
+}
+#cards .card2{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+height: 250px;
+width: 100%;
+}
+#cards .card1 img{
+width: 200px;
+height: 300px;
 }
 }
